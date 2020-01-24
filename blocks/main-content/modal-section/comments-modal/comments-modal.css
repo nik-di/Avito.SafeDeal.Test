@@ -1,0 +1,31 @@
+@import url(./__add-comment/comments-modal__add-comment.css);
+@import url(./__comments-list/comments-modal__comments-list.css);
+@import url(./__img/comments-modal__img.css);
+@import url(./comment-content/comment-content.css);
+@import url(./comment-form/comment-form.css);
+@import url(./__close-btn/comments-modal__close-btn.css);
+
+.comments-modal {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 380px;
+    background-color: #ffffff;
+    padding: 25px;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .comments-modal {
+        height: 100%;
+        max-height: 520px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .comments-modal {
+        padding: 0;
+    }
+}
