@@ -1,0 +1,12 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__border/footer__border.css);
+
+.footer {
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+}
