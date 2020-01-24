@@ -1,4 +1,4 @@
-# avito-safedeal-test
+# Avito.SafeDeal.Test
 Тестовое задание в команду SafeDeal Авито.
 
 ### Задание
