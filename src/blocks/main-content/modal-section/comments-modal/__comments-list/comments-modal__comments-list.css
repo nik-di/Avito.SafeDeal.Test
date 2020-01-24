@@ -1,0 +1,11 @@
+.comments-modal__comments-list {
+    grid-area: comments;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .comments-modal__comments-list {
+        width: calc(100% - 40px);
+        justify-self: center;
+    }
+}

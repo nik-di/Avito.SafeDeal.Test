@@ -1,0 +1,10 @@
+@import url(./__photo/grid-template__photo.css);
+
+.grid-template {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 230px));
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    justify-content: center;
+}
