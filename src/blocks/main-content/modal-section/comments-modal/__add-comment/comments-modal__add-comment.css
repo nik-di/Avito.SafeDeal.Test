@@ -1,0 +1,24 @@
+.comments-modal__add-comment {
+    display: grid;
+    grid-template-areas: 
+    'image comments'
+    'comment-form .';
+    grid-template-columns: 330px 200px;
+    grid-template-rows: 210px 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .comments-modal__add-comment {
+        grid-template-areas: 
+            'image'
+            'comments'
+            'comment-form' ;
+        grid-template-rows: 210px 2fr 1fr;
+        grid-template-columns: minmax(200px, 330px);
+        justify-content: center;
+    }
+}
