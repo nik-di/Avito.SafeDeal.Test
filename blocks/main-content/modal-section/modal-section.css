@@ -1,6 +1,0 @@
-@import url(./_is-visible/modal-section_is-visible.css);
-@import url(./comments-modal/comments-modal.css);
-
-.modal-section {
-    display: none;
-}
