@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<%=require('../src/images/favicon-32x32.png')%>" type="image/x-icon">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css%>">
 </head>
 
@@ -24,9 +24,10 @@
                 <button class="comments-modal__close-btn"></button>
                 <div class="comments-modal__add-comment">
                     <img id="" class="comments-modal__img" src="" alt="Фотография для комментария">
-                    <form class="comment-form" name="comment-form">
-                        <input class="comment-form__input" name="name" type="text" placeholder="Ваше имя">
-                        <input class="comment-form__input" name="comment" type="text" placeholder="Ваш комментарий">
+                    <form novalidate class="comment-form" name="comment-form" autocomplete="off">
+                        <span class="error error_active"></span>
+                        <input required class="comment-form__input" name="name" type="text" placeholder="Ваше имя">
+                        <input required class="comment-form__input" name="comment" type="text" placeholder="Ваш комментарий">
                         <button name="submit" class="comment-form__submit-btn"></button>
                     </form>
                     <div class="comments-modal__comments-list">
@@ -41,7 +42,7 @@
         <div class="footer__border"></div>
         <div class="footer__copyright">&copy; 2018-2019</div>
     </footer>
-    <script src="<%=htmlWebpackPlugin.files.chunks.index.entry%>"></script>
+    <script type="module" src="<%=htmlWebpackPlugin.files.chunks.index.entry%>"></script>
 </body>
 
 </html>
