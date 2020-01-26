@@ -1,6 +1,6 @@
 # Avito.SafeDeal.Test - Тестовое задание в команду SafeDeal Авито.
 
-### [Открыть сайт](https://nik-di.github.io/Avito.SafeDeal.Test)
+### [Открыть сайт](https://nik-di.github.io/Avito.SafeDeal.Test/)
 
 #### [На главную ветку](https://github.com/nik-di/Avito.SafeDeal.Test/tree/master)
 
