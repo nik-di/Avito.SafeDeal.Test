@@ -1,5 +1,10 @@
-# Avito.SafeDeal.Test
-Тестовое задание в команду SafeDeal Авито.
+# Avito.SafeDeal.Test - Тестовое задание в команду SafeDeal Авито.
+
+### [Открыть сайт](https://nik-di.github.io/Avito.SafeDeal.Test)
+
+#### [На главную ветку](https://github.com/nik-di/Avito.SafeDeal.Test/tree/master)
+
+`Версия 0.2.1`
 
 ### Задание
 
@@ -15,3 +20,13 @@ GET `https://boiling-refuge-66454.herokuapp.com/images/:imageId` - получе�
 POST `https://boiling-refuge-66454.herokuapp.com/images/:imageId/comments` - добавление комментария.
 
 Макет в Figma `https://www.figma.com/file/3VP0QDK3kjdfbkj8TRrtsx/Test-task?node-id=0%3A1`.
+
+#### Установка
+1. Скачать репозиторий:
+```git clone https://github.com/nik-di/Avito.SafeDeal.Test.git```
+2. Установить npm-зависимости:
+```npm i```
+3. Произвести сборку проекта:
+```npm run build```
+4. Запустить проект на локальном сервере:
+```npm run start```

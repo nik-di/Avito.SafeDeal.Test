@@ -1,0 +1,9 @@
+.error.error_active {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 10px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: red;
+  margin-bottom: -10px;
+}

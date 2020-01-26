@@ -39,7 +39,6 @@ module.exports = {
         test: /\.(eot|ttf|woff|woff2)$/,
         exclude: /node_modules/,
         use: [
-          // `file-loader?name=${isDev?'./':'../'}vendor/[name].[ext]`,
           {
             loader: 'file-loader',
             options: {
@@ -54,10 +53,18 @@ module.exports = {
         test: /\.(png|jpe?g|gif|ico|svg)$/,
         exclude: /node_modules/,
         use: [
-          'file-loader?name=./images/[name].[ext]',
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images',
+              publicPath: '../images'
+            }
+          },
           {
             loader: 'image-webpack-loader',
-            options: {}
+            options: {
+            }
           }
         ],
       }

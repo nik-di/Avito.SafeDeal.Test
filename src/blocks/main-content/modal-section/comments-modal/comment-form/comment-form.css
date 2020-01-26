@@ -1,5 +1,6 @@
 @import url(./__input/comment-form__input.css);
 @import url(./__submit-btn/comment-form__submit-btn.css);
+@import url(./error/error.css);
 
 .comment-form {
     display: flex;

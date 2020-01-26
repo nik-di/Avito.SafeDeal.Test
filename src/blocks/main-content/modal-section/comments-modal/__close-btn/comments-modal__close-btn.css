@@ -1,6 +1,6 @@
 .comments-modal__close-btn {
     background-color: rgba(255, 255, 255, 0);
-    background: url(/src/images/Close.png) no-repeat center;
+    background: url(../../../../../images/Close.png) no-repeat center;
     outline: none;
     cursor: pointer;
     padding: 0;
