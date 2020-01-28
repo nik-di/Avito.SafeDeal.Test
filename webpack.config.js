@@ -58,7 +58,12 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'images',
-              publicPath: '../images'
+              publicPath: (url) => {
+                if (/favicon/.test(url)) {
+                  return `./images/${url}`;
+                }
+                return `../images/${url}`;
+              }
             }
           },
           {

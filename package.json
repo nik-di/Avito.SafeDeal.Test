@@ -1,6 +1,6 @@
 {
   "name": "avito.safedeal.test",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "Test task for a vacancy",
   "main": "index.js",
   "scripts": {
@@ -42,5 +42,8 @@
   "dependencies": {
     "@babel/polyfill": "7.7.0",
     "core-js": "3.4.1"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
