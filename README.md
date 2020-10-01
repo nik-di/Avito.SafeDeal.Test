@@ -4,7 +4,7 @@
 
 #### [На главную ветку](https://github.com/nik-di/Avito.SafeDeal.Test/tree/master)
 
-`Версия 0.2.2`
+`Версия 0.2.3`
 
 ### Задание
 

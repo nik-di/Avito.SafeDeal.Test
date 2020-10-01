@@ -120,4 +120,9 @@ const commentFormHandler = (e) => {
 
 document.addEventListener('click', imagesContainerHandler);
 commentForm.addEventListener('submit', commentFormHandler)
+/** */
 
+{
+  
+  
+}

@@ -9,39 +9,44 @@
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css%>">
 </head>
 
-<body class="page">
-    <header class="header">
-        <h1 class="header__title">Test App</h1>
-    </header>
+<body>
 
-    <main class="main-content">
-        <section class="grid-template">
-            <!-- Фотографии с сервера -->
-        </section>
-        <!--  modal-section_is-visible -->
-        <section class="modal-section">
-            <div class="comments-modal">
-                <button class="comments-modal__close-btn"></button>
-                <div class="comments-modal__add-comment">
-                    <img id="" class="comments-modal__img" src="" alt="Фотография для комментария">
-                    <form novalidate class="comment-form" name="comment-form" autocomplete="off">
-                        <span class="error error_active"></span>
-                        <input required class="comment-form__input" name="name" type="text" placeholder="Ваше имя">
-                        <input required class="comment-form__input" name="comment" type="text" placeholder="Ваш комментарий">
-                        <button name="submit" class="comment-form__submit-btn"></button>
-                    </form>
-                    <div class="comments-modal__comments-list">
-                      <!-- Комментарии вставляются с помощью JS -->
+    <div class="page">
+        <header class="header">
+            <h1 class="header__title">Test App</h1>
+        </header>
+
+        <main class="main-content">
+            <section class="grid-template">
+                <!-- Фотографии с сервера -->
+            </section>
+            <!--  modal-section_is-visible -->
+            <section class="modal-section">
+                <div class="comments-modal">
+                    <button class="comments-modal__close-btn"></button>
+                    <div class="comments-modal__add-comment">
+                        <img id="" class="comments-modal__img" src="" alt="Фотография для комментария">
+                        <form novalidate class="comment-form" name="comment-form" autocomplete="off">
+                            <span class="error error_active"></span>
+                            <input required class="comment-form__input" name="name" type="text" placeholder="Ваше имя">
+                            <input required class="comment-form__input" name="comment" type="text"
+                                placeholder="Ваш комментарий">
+                            <button name="submit" class="comment-form__submit-btn"></button>
+                        </form>
+                        <div class="comments-modal__comments-list">
+                            <!-- Комментарии вставляются с помощью JS -->
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
 
-    <footer class="footer">
-        <div class="footer__border"></div>
-        <div class="footer__copyright">&copy; 2018-2019</div>
-    </footer>
+        <footer class="footer">
+            <div class="footer__border"></div>
+            <div class="footer__copyright">&copy; 2018-2019</div>
+        </footer>
+    </div>
+
     <script type="module" src="<%=htmlWebpackPlugin.files.chunks.index.entry%>"></script>
 </body>
 

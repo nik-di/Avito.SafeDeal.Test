@@ -2,7 +2,7 @@
 @import url(./__border/footer__border.css);
 
 .footer {
-    width: calc(100% - 40px);
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
