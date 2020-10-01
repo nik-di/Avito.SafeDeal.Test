@@ -8,13 +8,19 @@ html {
     font-size: 16px;
 }
 
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .page {
     width: 100%;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     flex-direction: column;
-    flex-wrap: nowrap;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }

@@ -1,12 +1,12 @@
 {
   "name": "avito.safedeal.test",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test task for a vacancy",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack --mode production",
     "start": "webpack-dev-server --mode development --open --watch --hot",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
